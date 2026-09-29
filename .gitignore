@@ -1,0 +1,21 @@
+# Datasets and trained weights (usually too large / private for git)
+data/train/real/*
+data/train/fake/*
+data/val/real/*
+data/val/fake/*
+!data/train/real/.gitkeep
+!data/train/fake/.gitkeep
+!data/val/real/.gitkeep
+!data/val/fake/.gitkeep
+
+models/*
+!models/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS
+.DS_Store
